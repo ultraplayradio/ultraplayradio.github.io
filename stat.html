@@ -122,30 +122,29 @@ body.wsite-background {background-attachment: fixed !important;}.wsite-backgroun
 				<div id="main" class="splash-content">
 					<div class="container"><div id='wsite-content' class='wsite-elements wsite-not-footer'>
 <h2 class="wsite-content-title" style="text-align:center;"><font size="3">Статистика эфира</font></h2>
+<div></div>
 <br>
 <center>
-
-<div class="my_info" style="visibility:hidden;">
-	<table>
-	<tr><td colspan="2">
-	</td></tr>
-	<tr><td>Вещает DJ:</td><td>%djname%</td></tr>
-	<tr><td>Качество:</td><td>%kbps% kbps</td></tr>
-	<tr><td>Слушают / Пик:</td><td title='Лимит слушателей: %limit%'><b>%listeners%</b> / %plisteners%</td></tr>
-	</table><br>
-</div>
-
+<div data-myinfo="logo" style="width:300px; height:80px; background-size:cover;"></div>
+<div data-myinfo="img" style="width:300px; height:300px; background-size:cover;"></div>
+<br>
+<b data-myinfo="song"></b><br>
+Следует: <span data-myinfo="nextsong"></span><br>
+<br>
+<b>&#127911;</b> <b data-myinfo="listeners"></b> <span data-myinfo="isonline"></span> - <span data-myinfo="kbps"></span> kbps
+<br>
+<div data-myinfo="htmlavatar"></div>
+<br><br>
 </center>
-<center><p><b>Основной плейлист</b></p></center>
-
 <center>
+<b>Последние песни</b><br><br>
 <div class="my_lastsongs" data-revert=1 style="display:inline-block;">
 	<div class="my_lastsonghtml" style="display:none;">
 		<div style="text-align:left; margin:3px;">
 			<img src="https://myradio24.com/%songcover%" style="width:45px; height:45px; border-radius:4px; vertical-align:middle;"> &nbsp; 
 			%songtime% &nbsp;
 			<a href="https://www.youtube.com/results?search_query=%songencode%" target="_blank" title="Найти на YouTube">%song%</a> 
-			<span class=vm_likes data-likeid='%songid%'></span>
+			<span class=vm_likes data-likeid='318761878_%songid%'></span>
 		</div>
 	</div>
 </div>
