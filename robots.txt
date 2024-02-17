@@ -1,8 +1,8 @@
 ﻿User-agent: *
 User-agent: Yandex
 User-agent: Googlebot
-Host: https://ultraplayradio.github.io
-Sitemap: https://ultraplayradio.github.io/sitemap.xml
+Host: https://ultraplayradio.tk
+Sitemap: https://ultraplayradio.tk/sitemap.xml
 Allow: /index.html
 Allow: /play.html
 Allow: /radio.html
